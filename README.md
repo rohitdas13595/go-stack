@@ -37,6 +37,7 @@ Runnable demos live under [examples/](examples/). Each is a small Go module that
 - [Contributing](CONTRIBUTING.md) — issues, pull requests, and dev workflow
 - [Security](SECURITY.md) — **report vulnerabilities privately** (not via public issues)
 - [Code of conduct](CODE_OF_CONDUCT.md)
+- [Architecture (diagrams)](docs/ARCHITECTURE.md) — Mermaid overview of the stack
 - [Developer notes](docs/DEVELOPMENT.md) — repo layout and tooling
 - [Documentation index](docs/README.md)
 

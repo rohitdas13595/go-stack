@@ -2,6 +2,7 @@
 
 | Document | Description |
 |----------|-------------|
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Mermaid diagrams: context, request path, packages, CLI, workspace |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Repo layout, commands, workspace, release notes |
 | [../PRD.md](../PRD.md) | Product requirements and framework design (reference) |
 | [../README.md](../README.md) | Quick start, examples, package overview |
