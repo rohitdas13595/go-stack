@@ -1,3 +1,11 @@
 go 1.25.0
 
-use .
+use (
+	.
+	./examples/api
+	./examples/hello
+	./examples/named-routes
+	./examples/sse
+	./examples/ssr
+	./examples/websocket
+)

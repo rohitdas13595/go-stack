@@ -1,0 +1,6 @@
+{{ define "content" }}
+<h1>GoStack SSR example</h1>
+<p>Templates live in <code>views/</code>. HTMX and Alpine are loaded from a CDN.</p>
+<p><button hx-get="/health" hx-target="#health">GET /health (JSON)</button></p>
+<pre id="health"></pre>
+{{ end }}
