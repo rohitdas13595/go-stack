@@ -2,6 +2,14 @@
 
 Opinionated full-stack Go framework (see [PRD.md](PRD.md)). Module: `github.com/rohitdas13595/go-stack`.
 
+## About
+
+GoStack is a batteries-included Go toolkit for building web applications and APIs on a single codebase. It gives you a small **application kernel** (`App`, `Context`), a **radix-style router**, a **middleware** pipeline, and first-class support for **server-rendered HTML** (`html/template`) alongside **JSON**—so you can ship HTMX- or Alpine-friendly pages without giving up clean HTTP handlers.
+
+The project also bundles practical infrastructure pieces you normally wire by hand: **named DB pools**, **SQL migrations**, a **lightweight ORM-style query layer**, **JWT and session helpers**, **SSE and WebSocket** utilities, and hooks for **cache, jobs, mail, object storage, and observability**. The included **`gostack` CLI** scaffolds apps and runs common tasks (migrate, routes, serve). Everything is designed to stay readable and Go-idiomatic rather than framework-magic heavy.
+
+GoStack is **Apache-2.0 licensed**. Use it for prototypes, internal tools, or full-stack products where you want Go from the database to the browser—without adopting a heavyweight enterprise framework.
+
 ## Quick start (framework dev)
 
 ```bash
